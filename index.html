@@ -1,51 +1,123 @@
 <!DOCTYPE html>
-<html>
-    <meta charset=""UTF-88" />
-    <title>Akako Accessories</title>
-    <link rel="stylesheet" href="tyylit.css" />
-
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akako Accessories - Ajattomia koruja eleganteille naisille</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tyylit.css">
 </head>
-
 <body>
-    <!-- Header ja navigaatio -->
+    <!-- Header -->
     <header>
+        <div class="logo">AKAKO</div>
         <nav>
-            <div class="logo">Akako Accessories</div>
-            <ul class="nav-menu">
-                <li><a href="index.html">Etusivu</a></li>
-                <li><a href="tuotteet.html">Tuotteet</a></li>
-                <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
-            </ul>
+            <a href="tuotteet.html">Tuotteet</a>
+            <a href="yhteystiedot.html">Yhteystiedot</a>
         </nav>
     </header>
 
-    <!-- Hero-osio -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Tyylikkäät korut kaikille</h1>
-            <p>Löydä edulliset ja laadukkaat ruostumattomasta teräksestä valmistetut korut sekä naisille että miehille.</p>
-            <a href="tuotteet.html" class="cta-button">Tutustu tuotteisiin</a>
-        </div>
-        <div class="hero-image">
-            <img src="kuvat/hero-korut.jpg" alt="Tyylikkäitä koruja">
+    <!-- Hero Image Section -->
+    <section class="hero-image-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">
+            <h1>Ajattomia koruja eleganteille naisille</h1>
+            <p>Löydä tyylisi klassisista ja laadukkuudella valmistetusta koruista</p>
         </div>
     </section>
 
-    <!-- Ominaisuudet -->
-    <section class="features">
-        <div class="feature">
-            <h3>Edulliset hinnat</h3>
-            <p>Laadukkaat korut 10-40€ hintahaarukassa.</p>
+    <!-- Hero Content -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Koruja <span class="gold-text">50+ -vuotiaille</span> naisille</h2>
+            <p>Elegantteja ja laadukkaita ruostumattomasta teräksestä valmistettuja koruja kypsille naisille. Kulta- ja hopeaväriset mallit 10-40€ hintahaarukassa.</p>
+            <a href="tuotteet.html" class="cta-button">Tutustu kokoelmaan</a>
         </div>
-        <div class="feature">
-            <h3>Kaikille sopivaa</h3>
-            <p>Korumalleja sekä naisille että miehille.</p>
+        <div class="hero-img">
+            <img src="kuvat/hero-korut.jpg" alt="Elegantit korut">
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="categories">
+        <h2 class="section-title">Korumallistomme</h2>
+        <p class="section-subtitle">Ajattomia koruja, jotka sopivat jokaisen kypsän naisen tyyliin. Laadukkaita ja edullisia.</p>
+        
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="kuvat/kaulakorut.jpg" alt="Kultaiset kaulakorut">
+                </div>
+                <div class="product-info">
+                    <h3>Kaulakorut</h3>
+                    <p>Elegantit kaulakorut päivittäiseen käyttöön</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="kuvat/sormukset.jpg" alt="Kultaiset ja hopeaiset sormukset">
+                </div>
+                <div class="product-info">
+                    <h3>Sormukset</h3>
+                    <p>Tyylikkäät sormukset juhla- ja arkikäyttöön</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="kuvat/korvakorut.jpg" alt="Kultaiset ja hopeaiset korvakorut">
+                </div>
+                <div class="product-info">
+                    <h3>Korvakorut</h3>
+                    <p>Kauniit korvakorut kaikkiin tilanteisiin</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="kuvat/rannekorut.jpg" alt="Kultaiset ja hopeaiset rannekorut">
+                </div>
+                <div class="product-info">
+                    <h3>Rannekorut</h3>
+                    <p>Hienostuneet rannekorut täydellinen lisä</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="benefits-grid">
+            <div class="benefit">
+                <div class="benefit-icon">✦</div>
+                <h3>Ajaton eleganssi</h3>
+                <p>Klassinen design, joka sopii kypsän naisen tyyliin ja persoonallisuuteen. Mallit eivät mene pois muodista.</p>
+            </div>
+            <div class="benefit">
+                <div class="benefit-icon">€</div>
+                <h3>Edullinen laatu</h3>
+                <p>Korkealaatuiset korut kohtuulliseen hintaan 10-40€. Ruostumaton teräs kestää käyttöä vuosia.</p>
+            </div>
+            <div class="benefit">
+                <div class="benefit-icon">♥</div>
+                <h3>Henkilökohtainen palvelu</h3>
+                <p>Saat asiantuntevaa apua korun valintaan ja tyylivinkkejä. Ystävällinen asiakaspalvelumme auttaa sinua löytämään täydellisen korun.</p>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Akako Accessories</p>
+        <div class="footer-content">
+            <div class="footer-info">
+                <strong>Akako Accessories</strong>
+                <p>Ajattomia koruja eleganteille naisille</p>
+                <p>Laatu • Eleganssi • Edullisuus</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Akako Accessories. Kaikki oikeudet pidätetään.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
