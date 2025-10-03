@@ -294,6 +294,309 @@ nav a:hover {
     line-height: 1.7;
 }
 
+/* Page Header (tuotteet.html ja yhteystiedot.html) */
+.page-header {
+    background: linear-gradient(135deg, #f5f0ea 0%, #ebe4da 100%);
+    padding: 4rem 5rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.page-header p {
+    font-size: 18px;
+    color: #4a4a4a;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Product Section (tuotteet.html) */
+.product-section {
+    padding: 4rem 5rem;
+    background: #fff;
+}
+
+.product-section.alt-bg {
+    background: #f5f0ea;
+}
+
+.product-category-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+}
+
+.product-category-header h2 {
+    font-family: 'Georgia', serif;
+    font-size: 38px;
+    color: #000;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.product-category-header p {
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 1.7;
+}
+
+.product-showcase {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-item {
+    background: #fff;
+    border: 1px solid #e8dfd1;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.alt-bg .product-item {
+    background: #fafafa;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border-color: #D4AF37;
+}
+
+.product-item-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.product-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-item-info {
+    padding: 2rem;
+}
+
+.product-item-info h3 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.product-item-info .price {
+    font-size: 20px;
+    color: #D4AF37;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.product-item-info p {
+    font-size: 15px;
+    color: #5a5a5a;
+    line-height: 1.6;
+}
+
+/* CTA Section */
+.cta-section {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 5rem 5rem;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-family: 'Georgia', serif;
+    font-size: 42px;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.cta-section p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    color: #d0d0d0;
+}
+
+/* Contact Page Styles (yhteystiedot.html) */
+.contact-wrapper {
+    padding: 5rem 5rem;
+    background: #fff;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info h2 {
+    font-family: 'Georgia', serif;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.info-item {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e8dfd1;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-item h3 {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: #D4AF37;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.info-item p {
+    font-size: 16px;
+    color: #4a4a4a;
+    line-height: 1.7;
+}
+
+.contact-form-container h2 {
+    font-family: 'Georgia', serif;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.contact-form {
+    background: #f5f0ea;
+    padding: 2.5rem;
+    border: 1px solid #e8dfd1;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: #2c2c2c;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.9rem;
+    border: 1px solid #d0d0d0;
+    font-size: 15px;
+    font-family: 'Aptos', sans-serif;
+    background: #fff;
+    transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #D4AF37;
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background: #000;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border: 2px solid #000;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.submit-button:hover {
+    background: #D4AF37;
+    color: #000;
+    border-color: #D4AF37;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+}
+
+/* Why Contact Section */
+.why-contact {
+    padding: 5rem 5rem;
+    background: #f5f0ea;
+    text-align: center;
+}
+
+.why-contact h2 {
+    font-family: 'Georgia', serif;
+    font-size: 38px;
+    color: #000;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.reason {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border: 1px solid #e8dfd1;
+    transition: all 0.3s;
+}
+
+.reason:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    border-color: #D4AF37;
+}
+
+.reason h3 {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.reason p {
+    font-size: 15px;
+    color: #4a4a4a;
+    line-height: 1.7;
+}
+
 /* Footer */
 footer {
     background: #1a1a1a;
@@ -340,6 +643,18 @@ footer {
     .hero {
         flex-direction: column;
     }
+
+    .product-showcase {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .reasons-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 768px) {
@@ -369,7 +684,7 @@ footer {
         font-size: 32px;
     }
 
-    .categories, .benefits {
+    .categories, .benefits, .product-section, .contact-wrapper, .why-contact, .cta-section {
         padding: 3rem 2rem;
     }
 
@@ -377,8 +692,12 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .section-title {
+    .section-title, .page-header h1 {
         font-size: 32px;
+    }
+
+    .contact-form {
+        padding: 1.5rem;
     }
 
     footer {
