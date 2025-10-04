@@ -13,9 +13,7 @@ body {
     font-size: 16px;
 }
 
-/* Header */
 header {
-    background-image: url(Kuvat/hero-korut.webp)
     background: #fff;
     padding: 1.5rem 5rem;
     display: flex;
@@ -32,8 +30,8 @@ header.header-shrink {
     font-size: 13px;
     transition: padding 0.3s, font-size 0.3s;
     background: #fff;
-    /* muut kutistuneen headerin tyylit tähän... */
 }
+
 header.header-shrink .logo {
     font-size: 1.2rem;
     transition: font-size 0.3s;
