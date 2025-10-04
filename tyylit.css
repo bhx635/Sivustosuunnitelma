@@ -26,6 +26,15 @@ header {
     top: 0;
     z-index: 100;
 }
+@media (max-width: 768px) {
+    header {
+        padding: 0.6rem 1rem;
+        font-size: 14px; /* tarvittaessa pienempi fontti */
+    }
+    .logo {
+        font-size: 1.5rem; /* pienempi logo mobiilissa */
+    }
+}
 
 .logo {
     font-family: 'Georgia', serif;
