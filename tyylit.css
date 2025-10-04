@@ -608,6 +608,19 @@ nav a:hover {
     line-height: 1.7;
 }
 
+/* Keskitetty kaksi vierekkäistä laatikkoa yhteystiedot-sivulle */
+.reasons-grid.center-two {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.reasons-grid.center-two .reason {
+    width: 350px;
+    min-width: 200px;
+    max-width: 100%;
+}
+
 /* Footer */
 footer {
     background: #1a1a1a;
