@@ -15,7 +15,7 @@ body {
 
 /* Header */
 header {
-    background-image: url(kuvat/hero-korut.webp)
+    background-image: url(Kuvat/hero-korut.webp)
     background: #fff;
     padding: 1.5rem 5rem;
     display: flex;
@@ -64,7 +64,7 @@ nav a:hover {
 .hero-image-section {
     width: 100%;
     height: 600px;
-    background: url('kuvat/hero-background.jpg') center/cover;
+    background: url('Kuvat/hero-background.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
