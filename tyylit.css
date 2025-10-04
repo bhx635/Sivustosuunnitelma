@@ -31,6 +31,8 @@ header.header-shrink {
     padding: 0.4rem 1rem;
     font-size: 13px;
     transition: padding 0.3s, font-size 0.3s;
+    background: #fff;
+    /* muut kutistuneen headerin tyylit tähän... */
 }
 header.header-shrink .logo {
     font-size: 1.2rem;
