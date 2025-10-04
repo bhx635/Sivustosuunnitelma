@@ -728,3 +728,15 @@ footer {
         padding: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    .reasons-grid.center-two {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .reasons-grid.center-two .reason {
+        width: 100%;
+        max-width: 400px; /* voit säätää tarpeen mukaan */
+    }
+}
