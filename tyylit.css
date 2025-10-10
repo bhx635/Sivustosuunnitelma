@@ -70,6 +70,11 @@ nav a:hover {
     border-bottom: 2px solid #D4AF37;
 }
 
+nav a.active {
+    color: #D4AF37;
+    border-bottom: 2px solid #D4AF37;
+}
+
 /* Hero Image Section */
 .hero-image-section {
     width: 100%;
@@ -421,24 +426,28 @@ nav a:hover {
 
 /* CTA Section */
 .cta-section {
-    background: #1a1a1a;
-    color: #fff;
-    padding: 5rem 5rem;
+    background: linear-gradient(135deg, #f5f0ea 0%, #ebe4da 100%);
+    color: #2c2c2c;
+    padding: 4rem 5rem;
     text-align: center;
+    border-top: 1px solid #e8dfd1;
+    border-bottom: 1px solid #e8dfd1;
 }
 
 .cta-section h2 {
     font-family: 'Georgia', serif;
-    font-size: 42px;
-    margin-bottom: 1.5rem;
+    font-size: 36px;
+    margin-bottom: 1.2rem;
     font-weight: 700;
+    color: #000;
 }
 
 .cta-section p {
-    font-size: 18px;
-    max-width: 700px;
-    margin: 0 auto 2.5rem;
-    color: #d0d0d0;
+    font-size: 17px;
+    max-width: 650px;
+    margin: 0 auto 2rem;
+    color: #4a4a4a;
+    line-height: 1.7;
 }
 
 /* Contact Page Styles (yhteystiedot.html) */
